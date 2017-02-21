@@ -208,8 +208,8 @@
 `
 ####自定义view常用的自定义工具类
 
-`	
-    public class DisplayUtil {  
+
+`	public class DisplayUtil {  
         /** 
          * 将px值转换为dip或dp值，保证尺寸大小不变 
          *  
