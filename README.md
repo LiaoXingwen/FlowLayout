@@ -1,4 +1,4 @@
-###安卓自定义控件-流式布局
+﻿###安卓自定义控件-流式布局
 > 学过java基础都知道，进行Swing界面设计时，有一个常用的布局就是流式布局，但在安卓中却不存在这么一种布局。当我们可以通过自定义ViewGroup来实现一个自己FlowLayout
 
 ####先上效果图
@@ -207,18 +207,8 @@
 }
 `
 ####自定义view常用的自定义工具类
-`	package main.com.viewdesign;
 
-import android.content.Context;
-import android.view.WindowManager;
-import android.view.View.MeasureSpec;
-
-/** 
-     * dp、sp 转换为 px 的工具类 
-     *  
-     * 
-     * 
-     */  
+`	
     public class DisplayUtil {  
         /** 
          * 将px值转换为dip或dp值，保证尺寸大小不变 
@@ -334,7 +324,8 @@ import android.view.View.MeasureSpec;
      		}
      		return mySize;
      	}
-    }  `
+    } 
+ `
 
 ### 到此，自定义控件就已经结束了，可以在xml中或者代码中使用了
 
